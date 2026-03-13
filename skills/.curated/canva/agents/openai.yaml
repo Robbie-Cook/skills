@@ -1,0 +1,10 @@
+interface:
+  display_name: "Canva"
+  short_description: "Use Canva MCP for design search, editing, generation, and export"
+  default_prompt: "Use Canva MCP to search, inspect, edit, generate, or export Canva designs based on the user's request."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "canva"
+      description: "Canva MCP server"
